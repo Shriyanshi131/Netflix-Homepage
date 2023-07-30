@@ -1,0 +1,152 @@
+body{
+    background: url(https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    background-size: 1350px 650px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .img img{
+    width: 17%;
+    margin-top: 10px;
+}
+
+nav .btn{
+    display: flex;
+    margin-top: 30px;
+}
+.btn .eng{
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    margin-left: 43px;
+}
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+.btn .sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+
+
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    border: none;
+}
+
+
+.btn .eng{
+    margin-inline: 22px;
+}
+
+.main{
+    text-align: center;
+}
+
+.main h1{
+    font-size: 60px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.main h3{
+    font-size: 34px;
+}
+.main p{
+    font-size: 27px;
+}
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input input{
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 25px;
+}
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(225,11,11);
+    color: white;
+    font-size: 26px;
+    border:none;
+    
+
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 190px;
+    padding: 66px;
+    border-top: 4px solid gray;
+    font-size: x-large;
+}
+
+.first h1{
+    font-size:55px ;
+}
+.first p{
+    font-size:27 ;
+}
+.first img{
+    width: 50%;
+}
+.button h1{
+    text-align: center;
+    margin-top: 66px;
+    font-size: 44px;
+}
+.button button{
+    width: 800px;
+    height: 60px;
+    background-color: grey;
+    color: white;
+    font-size: 26px;
+    margin-left: 220px;
+    text-align: left;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 66px;
+    border-top: 4px solid grey;
+    margin-top: 48px;
+
+}
+
+.main .get:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+.main .input{
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+.main .get{
+    margin-left: 10px;
+}
+.button button:hover{
+        background-color: gainsboro;
+}
